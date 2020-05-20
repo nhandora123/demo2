@@ -17,7 +17,7 @@ namespace Session_1
                 //Bai1_Class();
                 //Bai2_Class();
                 //Bai6_Class();
-                Bai2_Home();
+                Bai1b_Home();
                 Console.WriteLine("Do you want to loop again ? Press 1 to loop, press any word to stop");
                 count = Console.ReadLine();
             }
@@ -261,7 +261,68 @@ namespace Session_1
             } while (i!="0");
             Console.WriteLine("tong: " + tong + " max: " + max + " min: "+min);
         }
+        static void Bai1a_Home()
+        {
+            int x=0;
+            int y = 0;
+            double fx;
+            do
+            {
+                try
+                {
+                    Console.WriteLine("Input x ");
+                    x = int.Parse(Console.ReadLine());
+                    y = 1;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Input Number again");
+                }
+            } while (y == 0);
+            if (x > 0) {
+                fx = 3 * x + Math.Sqrt(x);
+            }
+            else
+            {
+                fx = Math.Pow(Math.E, x) + 4;
 
+            }
+            if (double.IsNaN(fx)) Console.WriteLine(""); 
+            else Console.WriteLine("That result is "+ fx);
+        }
+        static void Bai1b_Home()
+        {
+            int x = 0;
+            int y = 0;
+            double fx;
+            do
+            {
+                try
+                {
+                    Console.WriteLine("Input x ");
+                    x = int.Parse(Console.ReadLine());
+                    y = 1;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Input Number again");
+                }
+            } while (y == 0);
+            if (x >= 1)
+            {
+                fx = Math.Sqrt(Math.Pow(x, 2) + 1);
+            }
+            else if(x>-1 && x>1)
+            {
+                fx = 3 * x + 5;
+            }
+            else
+            {
+                fx = Math.Pow(x, 2) + 2 * x - 1;
+            }
+            if (double.IsNaN(fx)) Console.WriteLine("");
+            else Console.WriteLine("That result is " + fx);
+        }
         static void Bai2_Home()
         {
             for (int i = 10; i < 99; i++)
@@ -269,5 +330,6 @@ namespace Session_1
                 if (i % 10 != i / 10) Console.Write(i + "   ");
             }
         }
+        ////blalaalla123
     }
 }

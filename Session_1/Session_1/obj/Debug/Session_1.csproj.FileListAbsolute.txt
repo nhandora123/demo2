@@ -4,3 +4,9 @@ C:\Student\Session_1\Session_1\bin\Debug\Session_1.pdb
 C:\Student\Session_1\Session_1\obj\Debug\Session_1.csprojResolveAssemblyReference.cache
 C:\Student\Session_1\Session_1\obj\Debug\Session_1.exe
 C:\Student\Session_1\Session_1\obj\Debug\Session_1.pdb
+E:\WinformAdvance\CD\DotNetC\Session_1\Session_1\bin\Debug\Session_1.exe.config
+E:\WinformAdvance\CD\DotNetC\Session_1\Session_1\bin\Debug\Session_1.exe
+E:\WinformAdvance\CD\DotNetC\Session_1\Session_1\bin\Debug\Session_1.pdb
+E:\WinformAdvance\CD\DotNetC\Session_1\Session_1\obj\Debug\Session_1.csprojAssemblyReference.cache
+E:\WinformAdvance\CD\DotNetC\Session_1\Session_1\obj\Debug\Session_1.exe
+E:\WinformAdvance\CD\DotNetC\Session_1\Session_1\obj\Debug\Session_1.pdb
